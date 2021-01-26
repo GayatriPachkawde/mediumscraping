@@ -1,0 +1,21 @@
+.article-container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.para-container {
+  width: 60%;
+}
+
+.article-title {
+  width: 80%;
+}
+
+.para {
+  font-size: larger;
+  letter-spacing: 0.8px;
+  color: grey;
+}

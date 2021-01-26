@@ -1,0 +1,61 @@
+.blogs-container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search {
+  font-size: 20px;
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  transition: height 1s;
+  margin-top: 20%;
+}
+
+.search:focus {
+  height: 70px;
+}
+
+body {
+  transition: all 0.5s ease;
+}
+
+.blogs-title {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+
+.fa-angle-double-right {
+  position: absolute;
+  right: 18%;
+}
+
+.search-container {
+  width: 60%;
+  color: red;
+  margin: auto;
+}
+
+.medium {
+  text-align: center;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+  outline: none;
+}

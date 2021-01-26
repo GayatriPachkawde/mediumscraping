@@ -1,0 +1,45 @@
+.blog-container {
+  width: 70%;
+  height: fit-content;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.preview-image {
+  width: 75%;
+  height: 18%;
+}
+
+.author {
+  font-size: 15px;
+  display: flex;
+}
+.details,
+.response {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.details {
+  font-size: 25px;
+}
+
+.rm {
+  float: left;
+}
+
+.response {
+  float: right;
+}
+
+.preview-content {
+  margin: 2%;
+}
+
+.fa-user {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

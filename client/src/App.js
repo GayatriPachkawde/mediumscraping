@@ -4,6 +4,7 @@ import axios from "axios";
 import "./App.css";
 import Article from "./Component/Blogs/Article/Article";
 import "font-awesome/css/font-awesome.min.css";
+const app = express();
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {

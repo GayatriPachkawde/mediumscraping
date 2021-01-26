@@ -31,7 +31,7 @@ const Blogs = (props) => {
       <div className="blog-container">
         <div onClick={() => showBlog(props.blog.article.slice(19))}>
           <div className="preview-content author">
-            <i class="fa fa-user" aria-hidden="true"></i>
+            <i className="fa fa-user" aria-hidden="true"></i>
             {props.blog.author}
           </div>
 

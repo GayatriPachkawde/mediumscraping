@@ -81,14 +81,14 @@ function App() {
                 <div className="heading">
                   <h1 className="blogs-title ">{tag}</h1>
                   <i
-                    class="fa fa-angle-double-right fa-2x"
+                    className="fa fa-angle-double-right fa-2x"
                     aria-hidden="true"
                     onClick={searchNext}
                   ></i>
                 </div>
               </Link>
               <div className="blogs-title">STORIES</div>
-              {blogs.length > 0
+              {Array.isArray(blogs)
                 ? blogs.map((blog) => {
                     if (blog === "crawling") {
                       return <h1>{blog}</h1>;
